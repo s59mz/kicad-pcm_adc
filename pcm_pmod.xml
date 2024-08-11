@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/matjaz/Kicad/kicad-pcm_adc/pcm_pmod.kicad_sch</source>
+    <date>ned 11 avg 2024 19:34:32</date>
+    <tool>Eeschema 7.0.11-7.0.11~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>PMC1808 module &amp; mic</title>
+        <company>S59MZ</company>
+        <rev>1.0</rev>
+        <date>2022-12-16</date>
+        <source>pcm_pmod.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pcm_pmod.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34112e0e-7c27-458f-9f46-f1221bc7c6ea</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pcm_pmod.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6cc59a75-eec3-456d-b54b-6c253eca0352</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>pmod</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x06_Odd_Even" description="Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pcm_pmod.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf49c60c-0e69-4a33-982e-5ac94ce4f0f4</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>+5V</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pcm_pmod.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5a63ee19-0901-444f-b4d2-65e68e7c5d99</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>AudioJack4</value>
+      <footprint>Connector_Audio:Jack_3.5mm_PJ320D_Horizontal</footprint>
+      <libsource lib="Connector" part="AudioJack4" description="Audio Jack, 4 Poles (TRRS)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pcm_pmod.kicad_sch"/>
+      <property name="ki_description" value="Audio Jack, 4 Poles (TRRS)"/>
+      <property name="ki_keywords" value="audio jack receptacle stereo headphones TRRS connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ad7eb1c-27b2-4194-9227-6a635491b489</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pcm_pmod.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4c518d2-daaf-4cd7-b926-96b37ca389ad</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pcm_pmod.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd721153-7cab-4b4a-807a-7efbcfa51a69</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pcm_pmod.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c26de51-7200-4c4a-8c82-975c3ffb7367</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pcm_pmod.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61c23da2-bd28-498a-811d-021073d42c36</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>pcm_adc</value>
+      <footprint>pcm:pcm_adc</footprint>
+      <libsource lib="pcm" part="pcm_adc" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pcm_pmod.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>18e2c9bb-6f9f-4ac8-b8fd-41689f1344ad</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>inmp441</value>
+      <footprint>pcm:inmp441-module</footprint>
+      <libsource lib="pcm" part="inmp441" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pcm_pmod.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>88072e1a-acb0-4870-b446-4ef33291f6a3</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>inmp441</value>
+      <footprint>pcm:inmp441-module</footprint>
+      <libsource lib="pcm" part="inmp441" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pcm_pmod.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b689b086-5733-4584-a3e0-df61fdb6edc1</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="AudioJack4">
+      <description>Audio Jack, 4 Poles (TRRS)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack4</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="R1" name="" type="passive"/>
+        <pin num="R2" name="" type="passive"/>
+        <pin num="S" name="" type="passive"/>
+        <pin num="T" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x06_Odd_Even">
+      <description>Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x06_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pcm" part="inmp441">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">inmp441</field>
+      </fields>
+      <pins>
+        <pin num="1" name="l/r" type="input"/>
+        <pin num="2" name="ws" type="input"/>
+        <pin num="3" name="sck" type="input"/>
+        <pin num="4" name="sd" type="input"/>
+        <pin num="5" name="vdd" type="power_in"/>
+        <pin num="6" name="gnd" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="pcm" part="pcm_adc">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">pcm_adc</field>
+      </fields>
+      <pins>
+        <pin num="1" name="fmy" type="input"/>
+        <pin num="2" name="md1" type="input"/>
+        <pin num="3" name="md0" type="input"/>
+        <pin num="4" name="gnd" type="power_in"/>
+        <pin num="5" name="+3V3" type="power_in"/>
+        <pin num="6" name="+5V" type="power_in"/>
+        <pin num="7" name="+3V3" type="power_in"/>
+        <pin num="8" name="gnd" type="power_in"/>
+        <pin num="9" name="sck" type="input"/>
+        <pin num="10" name="lrc" type="input"/>
+        <pin num="11" name="out" type="output"/>
+        <pin num="12" name="bck" type="input"/>
+        <pin num="13" name="Lin" type="input"/>
+        <pin num="14" name="agnd" type="power_in"/>
+        <pin num="15" name="Rin" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="pcm">
+      <uri>/home/matjaz/Kicad/kicad-pcm_adc/pcm.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="+3V3" pintype="power_in"/>
+      <node ref="U1" pin="7" pinfunction="+3V3" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="vdd" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="l/r" pintype="input"/>
+      <node ref="U3" pin="5" pinfunction="vdd" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="+5V" pintype="power_in"/>
+    </net>
+    <net code="3" name="/bck">
+      <node ref="J1" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="bck" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="sck" pintype="input"/>
+      <node ref="U3" pin="3" pinfunction="sck" pintype="input"/>
+    </net>
+    <net code="4" name="/fmy">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="fmy" pintype="input"/>
+    </net>
+    <net code="5" name="/lrc">
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="lrc" pintype="input"/>
+      <node ref="U2" pin="2" pinfunction="ws" pintype="input"/>
+      <node ref="U3" pin="2" pinfunction="ws" pintype="input"/>
+    </net>
+    <net code="6" name="/md0">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="md0" pintype="input"/>
+    </net>
+    <net code="7" name="/md1">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="md1" pintype="input"/>
+    </net>
+    <net code="8" name="/out">
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="out" pintype="output"/>
+    </net>
+    <net code="9" name="/sck">
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="sck" pintype="input"/>
+    </net>
+    <net code="10" name="/sd">
+      <node ref="J1" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="sd" pintype="input"/>
+      <node ref="U3" pin="4" pinfunction="sd" pintype="input"/>
+    </net>
+    <net code="11" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="S" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="agnd" pintype="power_in"/>
+      <node ref="U1" pin="4" pinfunction="gnd" pintype="power_in"/>
+      <node ref="U1" pin="8" pinfunction="gnd" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="l/r" pintype="input"/>
+      <node ref="U2" pin="6" pinfunction="gnd" pintype="power_in"/>
+      <node ref="U3" pin="6" pinfunction="gnd" pintype="power_in"/>
+    </net>
+    <net code="12" name="Net-(U1-Lin)">
+      <node ref="J3" pin="T" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="Lin" pintype="input"/>
+    </net>
+    <net code="13" name="Net-(U1-Rin)">
+      <node ref="J3" pin="R1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="Rin" pintype="input"/>
+    </net>
+    <net code="14" name="unconnected-(J3-PadR2)">
+      <node ref="J3" pin="R2" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

@@ -1,9 +1,9 @@
-"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
-1;"R4,R3,R2";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";3;"4k7";;;
-2;"J3";"Jack_3.5mm_PJ320D_Horizontal";1;"AudioJack4";;;
-3;"U1";"pcm_adc";1;"pcm_adc";;;
-4;"C2,C1";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";2;"100n";;;
-5;"J1";"PinHeader_2x06_P2.54mm_Horizontal";1;"pmod";;;
-6;"U3,U2";"inmp441-module";2;"inmp441";;;
-7;"J2";"PinHeader_1x02_P2.54mm_Vertical";1;"+5V";;;
-8;"R1";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";1;"100k";;;
+Comment,Designator,Footprint,LCSC
+"100n","C1,C2","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",""
+"pmod","J1","Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Horizontal",""
+"+5V","J2","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",""
+"AudioJack4","J3","Connector_Audio:Jack_3.5mm_PJ320D_Horizontal",""
+"100k","R1","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",""
+"4k7","R2,R3,R4","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",""
+"pcm_adc","U1","pcm:pcm_adc",""
+"inmp441","U2,U3","pcm:inmp441-module",""
